@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: grey;
+}
+.container{
+  width: 1000px;
+  margin: auto;
+}
+header{
+  text-align: center;
+  color: orange;
+  margin: 50px;
+  font-size: 30px;
+}
+.row{
+  height: 400px;
+  margin: 10px 0px 0px 0px;
+}
+.prodotto{
+  width: 33%;
+  display: inline-block;
+  border: 1px solid grey;
+  text-align: center;
+  position: relative;
+  background-color: white;
+}
+.sconto{
+  background-color: green;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.prodotto:nth-child(2) .sconto{
+  background-color: red;
+}
+.cuore{
+  color: red;
+  display:none;
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+  background-color: white;
+}
+.prodotto:hover .cuore{
+  display: block;
+}
+.bottone{
+  width: 1000px;
+  height: 50px;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+input{
+  background-color: black;
+  color: white;
+  height: 50px;
+  width: 170px;
+  position: absolute;
+  right: 0%;
+}
