@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 908px;
+  height: 748px;
+  margin: auto;
+  background-color: red;
+}
+.row{
+  position: relative;
+}
+.prodotto{
+  width: 300px;
+  height: 372px;
+  background-color: yellow;
+  display: inline-block;
+  border: 1px solid black;
+}
